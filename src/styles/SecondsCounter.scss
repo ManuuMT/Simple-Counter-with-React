@@ -1,0 +1,20 @@
+// Black box styles
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    width: 250px;
+}
+
+// Items inside of the box (clock and numbers)
+.box div{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #101010;
+    padding: 10px;
+    color: white;    
+    line-height: 30px;
+    margin: 3px;
+}
